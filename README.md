@@ -8,15 +8,15 @@
 4. Lastly, this dataset is preprocessed in Python by using Google Colab and Google Drive to get the data. Begin with data cleaning in which I fill the null and duplicated values and delete the useless columns. I Extract the data from the columns like the Ram size from the Ram column which has more details than the Size. Then, visualize the data by using Matplotlib, seaborn and Plotly in which I highlighted the main dataset features. Furthermore, I use this dataset for Statistical data analysis in which I perform Descriptive, Inferential and Hypothesis testing here I used Pandas, Numpy, Math and Scipy libraries to perform all the tasks. In the end, I use the Scikit learn and Tensorflow libraries to make machine learning and deep learning models in which I performed the following:
 
 
-i. Linear Regression
-ii. SVM
-iii. KNN
-iv. Decision Tree
-v. Random Forest
-vi. XGBoost
-vii. AdaBoost
-viii. GradientBoost
-ix. AutoML
-x. ANN
+i. Linear Regression<br>
+ii. SVM<br>
+iii. KNN<br>
+iv. Decision Tree<br>
+v. Random Forest<br>
+vi. XGBoost<br>
+vii. AdaBoost<br>
+viii. GradientBoost<br>
+ix. AutoML<br>
+x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
