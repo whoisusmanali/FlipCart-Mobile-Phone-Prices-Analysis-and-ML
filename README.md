@@ -20,3 +20,35 @@ ix. AutoML<br>
 x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
+
+# Libraries/ Dependecies: 
+
+
+1. BeautifulSoup
+2. Request
+3. Math
+4. re
+5. Pandas
+6. Numpy
+7. Matplotlib
+8. Seaborn
+9. Plotly
+10. Sklearn
+11. Tensorflow
+12. Scipy
+13. Keras
+14. Xgboost
+15. Pickle
+
+
+
+
+
+
+
+
+
+
+
+
+
