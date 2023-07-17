@@ -8,7 +8,6 @@
 4. Lastly, this dataset is preprocessed in Python by using Google Colab and Google Drive to get the data. Begin with data cleaning in which I fill the null and duplicated values and delete the useless columns. I Extract the data from the columns like the Ram size from the Ram column which has more details than the Size. Then, visualize the data by using Matplotlib, seaborn and Plotly in which I highlighted the main dataset features. Furthermore, I use this dataset for Statistical data analysis in which I perform Descriptive, Inferential and Hypothesis testing here I used Pandas, Numpy, Math and Scipy libraries to perform all the tasks. In the end, I use the Scikit learn and Tensorflow libraries to make machine learning and deep learning models in which I performed the following:
 
 
-
 i. Linear Regression<br>
 ii. SVM<br>
 iii. KNN<br>
@@ -22,7 +21,7 @@ x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
 
-# Libraries/ Dependecies: 
+# Libraries/ Dependencies: 
 
 
 1. BeautifulSoup
@@ -40,6 +39,17 @@ Of all these models the best performing was XGBoost with 87% accuracy.
 13. Keras
 14. Xgboost
 15. Pickle
+
+# About Dataset:
+
+1. Phone Name is the name of the phone that is extracted.
+2. Rating is what it gets out of 5 stars.
+3. Number of Ratings is the Total number of people those rates this product.
+4. Ram size in GB
+5. Rom is the Storage that the product has.
+6. Front and Rare Camera in the Mega Pixels.
+7. Battery size and processor of different types.
+8. Lastly the price of the phone in Indian Rupees.
 
 
 
