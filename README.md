@@ -22,7 +22,7 @@ x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
 
-# Libraries/ Dependecies: 
+# Libraries/ Dependencies: 
 
 
 1. BeautifulSoup
@@ -40,6 +40,17 @@ Of all these models the best performing was XGBoost with 87% accuracy.
 13. Keras
 14. Xgboost
 15. Pickle
+
+# About Dataset:
+
+1. Phone Name is the name of the phone that is extracted.
+2. Rating is what it gets out of 5 stars.
+3. Number of Ratings is the Total number of people those rates this product.
+4. Ram size in GB
+5. Rom is the Storage that the product has.
+6. Front and Rare Camera in the Mega Pixels.
+7. Battery size and processor of different types.
+8. Lastly the price of the phone in Indian Rupees.
 
 
 
