@@ -59,6 +59,9 @@ Of all these models the best performing was XGBoost with 87% accuracy.
 6. Front and Rare Camera in the Mega Pixels.
 7. Battery size and processor of different types.
 8. Lastly the price of the phone in Indian Rupees.
+### Screenshot:
+![Capture5](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/726eb566-5cf4-4fd6-ad65-edbf45629e09)
+
 
 
 
