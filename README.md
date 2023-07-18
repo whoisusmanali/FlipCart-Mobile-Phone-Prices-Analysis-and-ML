@@ -3,8 +3,17 @@
 # Working:
 
 1. First, this Dataset is made from the FlipCart Website by using Python(BeautifulSoup and Request) libraries and doing some preprocessing to get the complete dataset from this site.
+### Screenshot:
+![Capture6](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/a86104fe-6646-48e3-91f2-3ee3e27b9afa)
+
 2. Secondly, This dataset is also used in the MSSQL server for cleaning and analysis. In this SQL is used for cleaning and Analysis I used the aggregate functions and different techniques to clean this dataset.
+### Screenshot:
+![Capture2](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/f68a217e-1d06-4c34-9a78-4bd8cdeed390)
+
 3. Thirdly, this dataset is directly imported to Power Bi for visualization by using the server to get the data. In this, I visualize the importance of each feature with respect to the other features. Data cleaning is also done in this software by a Data transformer and made more columns for visualization.
+### Screenshot:
+![Capture3](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/07f55df1-a40e-4ca9-b21e-78f9117614a8)
+
 4. Lastly, this dataset is preprocessed in Python by using Google Colab and Google Drive to get the data. Begin with data cleaning in which I fill the null and duplicated values and delete the useless columns. I Extract the data from the columns like the Ram size from the Ram column which has more details than the Size. Then, visualize the data by using Matplotlib, seaborn and Plotly in which I highlighted the main dataset features. Furthermore, I use this dataset for Statistical data analysis in which I perform Descriptive, Inferential and Hypothesis testing here I used Pandas, Numpy, Math and Scipy libraries to perform all the tasks. In the end, I use the Scikit learn and Tensorflow libraries to make machine learning and deep learning models in which I performed the following:
 
 
@@ -20,6 +29,9 @@ ix. AutoML<br>
 x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
+### Screenshot:
+![Capture4](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/3a831ae6-ec21-4ad3-9808-8e79293477f8)
+
 
 # Libraries/ Dependencies: 
 
@@ -50,6 +62,9 @@ Of all these models the best performing was XGBoost with 87% accuracy.
 6. Front and Rare Camera in the Mega Pixels.
 7. Battery size and processor of different types.
 8. Lastly the price of the phone in Indian Rupees.
+### Screenshot:
+![Capture5](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/726eb566-5cf4-4fd6-ad65-edbf45629e09)
+
 
 
 
