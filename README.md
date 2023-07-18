@@ -26,6 +26,9 @@ ix. AutoML<br>
 x. ANN<br>
 
 Of all these models the best performing was XGBoost with 87% accuracy.
+### Screenshot:
+![Capture4](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/3a831ae6-ec21-4ad3-9808-8e79293477f8)
+
 
 # Libraries/ Dependencies: 
 
