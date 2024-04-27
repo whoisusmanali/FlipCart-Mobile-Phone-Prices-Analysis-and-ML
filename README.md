@@ -1,41 +1,18 @@
-# In this project I used BeautifulSoup and Request Library for web scraping and FlipCart was the website where I get the all data.
+# FlipKart Mobile Phone Prices Analysis and Machine Learning
 
+This project focuses on extracting and analyzing mobile phone data from FlipKart, utilizing web scraping techniques and machine learning algorithms. By leveraging Python libraries like BeautifulSoup and Request, the data is collected and processed for comprehensive analysis.
 
-# Working:
+## Workflow Overview
 
-1. First, this Dataset is made from the FlipCart Website by using Python(BeautifulSoup and Request) libraries and doing some preprocessing to get the complete dataset from this site.
-### Screenshot:
-![Capture6](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/a86104fe-6646-48e3-91f2-3ee3e27b9afa)
+1. **Data Collection:** The project initiates with data extraction from FlipKart utilizing BeautifulSoup and Request libraries, ensuring a systematic retrieval of mobile phone attributes.
+   
+2. **Data Cleaning and Analysis:** Subsequently, the dataset undergoes meticulous cleaning and analysis within MSSQL server, employing advanced techniques and aggregate functions to refine the data quality and glean meaningful insights.
+   
+3. **Visualization:** The cleaned dataset is seamlessly integrated into Power BI for intuitive visualization, facilitating the exploration of feature importance and data relationships through interactive visualizations.
+   
+4. **Further Analysis and Machine Learning:** Further analysis is conducted in Python environment using Google Colab and Google Drive. This phase encompasses extensive preprocessing steps such as handling null values and extracting pertinent information. Statistical analysis, including Descriptive, Inferential, and Hypothesis testing, is performed utilizing Pandas, Numpy, Math, and Scipy libraries. Machine learning models, ranging from traditional algorithms like Linear Regression and SVM to ensemble methods like XGBoost and AdaBoost, are developed using Scikit Learn. Deep learning models, including ANN, are also explored using Tensorflow and Keras frameworks. The top-performing model, XGBoost, achieves an impressive accuracy of 87%.
 
-2. Secondly, This dataset is also used in the MSSQL server for cleaning and analysis. In this SQL is used for cleaning and Analysis I used the aggregate functions and different techniques to clean this dataset.
-### Screenshot:
-![Capture2](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/f68a217e-1d06-4c34-9a78-4bd8cdeed390)
-
-3. Thirdly, this dataset is directly imported to Power Bi for visualization by using the server to get the data. In this, I visualize the importance of each feature with respect to the other features. Data cleaning is also done in this software by a Data transformer and made more columns for visualization.
-### Screenshot:
-![Capture3](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/07f55df1-a40e-4ca9-b21e-78f9117614a8)
-
-4. Lastly, this dataset is preprocessed in Python by using Google Colab and Google Drive to get the data. Begin with data cleaning in which I fill the null and duplicated values and delete the useless columns. I Extract the data from the columns like the Ram size from the Ram column which has more details than the Size. Then, visualize the data by using Matplotlib, seaborn and Plotly in which I highlighted the main dataset features. Furthermore, I use this dataset for Statistical data analysis in which I perform Descriptive, Inferential and Hypothesis testing here I used Pandas, Numpy, Math and Scipy libraries to perform all the tasks. In the end, I use the Scikit learn and Tensorflow libraries to make machine learning and deep learning models in which I performed the following:
-
-
-i. Linear Regression<br>
-ii. SVM<br>
-iii. KNN<br>
-iv. Decision Tree<br>
-v. Random Forest<br>
-vi. XGBoost<br>
-vii. AdaBoost<br>
-viii. GradientBoost<br>
-ix. AutoML<br>
-x. ANN<br>
-
-Of all these models the best performing was XGBoost with 87% accuracy.
-### Screenshot:
-![Capture4](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/3a831ae6-ec21-4ad3-9808-8e79293477f8)
-
-
-# Libraries/ Dependencies: 
-
+## Libraries and Dependencies
 
 1. BeautifulSoup
 2. Request
@@ -46,37 +23,40 @@ Of all these models the best performing was XGBoost with 87% accuracy.
 7. Matplotlib
 8. Seaborn
 9. Plotly
-10. Sklearn
+10. Scikit Learn
 11. Tensorflow
 12. Scipy
 13. Keras
 14. Xgboost
 15. Pickle
 
-# About Dataset:
+## About the Dataset
 
-1. Phone Name is the name of the phone that is extracted.
-2. Rating is what it gets out of 5 stars.
-3. Number of Ratings is the Total number of people those rates this product.
-4. Ram size in GB
-5. Rom is the Storage that the product has.
-6. Front and Rare Camera in the Mega Pixels.
-7. Battery size and processor of different types.
-8. Lastly the price of the phone in Indian Rupees.
-### Screenshot:
-![Capture5](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/726eb566-5cf4-4fd6-ad65-edbf45629e09)
+The dataset encompasses crucial attributes of mobile phones, including:
 
+1. Phone Name
+2. Rating (out of 5 stars)
+3. Number of Ratings
+4. RAM size (in GB)
+5. ROM size (storage)
+6. Front and Rear Camera resolution (in MegaPixels)
+7. Battery size
+8. Processor type
+9. Price (in Indian Rupees)
 
+## Screenshots
 
+1. **Data Preprocessing and Analysis in Python:**
+   ![Data Preprocessing](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/3a831ae6-ec21-4ad3-9808-8e79293477f8)
 
+2. **Web Scraping Process:**
+   ![Web Scraping](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/a86104fe-6646-48e3-91f2-3ee3e27b9afa)
+   
+3. **Data Analysis in MSSQL:**
+   ![Data Analysis](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/f68a217e-1d06-4c34-9a78-4bd8cdeed390)
 
+4. **Visualization in Power BI:**
+   ![Visualization](https://github.com/whoisusmanali/FlipKart-Mobile-Phone-Prices-Analysis-and-ML/assets/104086680/07f55df1-a40e-4ca9-b21e-78f9117614a8)
 
-
-
-
-
-
-
-
-
+---
 
